@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mtj",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2016::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2016-Debug-0c2c6eed5a0993f789e6.json",
+					"name" : "2016",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chafen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chafen-Debug-b1bb85eda694c2489263.json",
+					"name" : "chafen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cointower::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cointower-Debug-48be35eab5a65d976a2c.json",
+					"name" : "cointower",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "max_avg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-max_avg-Debug-eb0359a3837e8e8d4bc3.json",
+					"name" : "max_avg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "online_pre_sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-online_pre_sum-Debug-11e7aa2004bfa5eda7ed.json",
+					"name" : "online_pre_sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "palace::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-palace-Debug-d978ffcfb54ff4251824.json",
+					"name" : "palace",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ticket::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ticket-Debug-226e7b60e7a794270cf5.json",
+					"name" : "ticket",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "triangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-triangle-Debug-ada87680340f42cf576c.json",
+					"name" : "triangle",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug",
+		"source" : "/Users/tianjiaye/CLionProjects/mtj"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

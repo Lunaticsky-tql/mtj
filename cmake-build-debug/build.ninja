@@ -1,0 +1,356 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: mtj
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target 2016
+
+
+#############################################
+# Order-only phony target for 2016
+
+build cmake_object_order_depends_target_2016: phony || CMakeFiles/2016.dir
+
+build CMakeFiles/2016.dir/week1/2016.cpp.o: CXX_COMPILER__2016_Debug /Users/tianjiaye/CLionProjects/mtj/week1/2016.cpp || cmake_object_order_depends_target_2016
+  DEP_FILE = CMakeFiles/2016.dir/week1/2016.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/2016.dir
+  OBJECT_FILE_DIR = CMakeFiles/2016.dir/week1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2016
+
+
+#############################################
+# Link the executable 2016
+
+build 2016: CXX_EXECUTABLE_LINKER__2016_Debug CMakeFiles/2016.dir/week1/2016.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/2016.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2016
+  TARGET_PDB = 2016.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target max_avg
+
+
+#############################################
+# Order-only phony target for max_avg
+
+build cmake_object_order_depends_target_max_avg: phony || CMakeFiles/max_avg.dir
+
+build CMakeFiles/max_avg.dir/week3/max_avg.cpp.o: CXX_COMPILER__max_avg_Debug /Users/tianjiaye/CLionProjects/mtj/week3/max_avg.cpp || cmake_object_order_depends_target_max_avg
+  DEP_FILE = CMakeFiles/max_avg.dir/week3/max_avg.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/max_avg.dir
+  OBJECT_FILE_DIR = CMakeFiles/max_avg.dir/week3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target max_avg
+
+
+#############################################
+# Link the executable max_avg
+
+build max_avg: CXX_EXECUTABLE_LINKER__max_avg_Debug CMakeFiles/max_avg.dir/week3/max_avg.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/max_avg.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = max_avg
+  TARGET_PDB = max_avg.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cointower
+
+
+#############################################
+# Order-only phony target for cointower
+
+build cmake_object_order_depends_target_cointower: phony || CMakeFiles/cointower.dir
+
+build CMakeFiles/cointower.dir/week1/cointower.cpp.o: CXX_COMPILER__cointower_Debug /Users/tianjiaye/CLionProjects/mtj/week1/cointower.cpp || cmake_object_order_depends_target_cointower
+  DEP_FILE = CMakeFiles/cointower.dir/week1/cointower.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/cointower.dir
+  OBJECT_FILE_DIR = CMakeFiles/cointower.dir/week1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cointower
+
+
+#############################################
+# Link the executable cointower
+
+build cointower: CXX_EXECUTABLE_LINKER__cointower_Debug CMakeFiles/cointower.dir/week1/cointower.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/cointower.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cointower
+  TARGET_PDB = cointower.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target triangle
+
+
+#############################################
+# Order-only phony target for triangle
+
+build cmake_object_order_depends_target_triangle: phony || CMakeFiles/triangle.dir
+
+build CMakeFiles/triangle.dir/week1/triangle.cpp.o: CXX_COMPILER__triangle_Debug /Users/tianjiaye/CLionProjects/mtj/week1/triangle.cpp || cmake_object_order_depends_target_triangle
+  DEP_FILE = CMakeFiles/triangle.dir/week1/triangle.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/triangle.dir
+  OBJECT_FILE_DIR = CMakeFiles/triangle.dir/week1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target triangle
+
+
+#############################################
+# Link the executable triangle
+
+build triangle: CXX_EXECUTABLE_LINKER__triangle_Debug CMakeFiles/triangle.dir/week1/triangle.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/triangle.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = triangle
+  TARGET_PDB = triangle.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target palace
+
+
+#############################################
+# Order-only phony target for palace
+
+build cmake_object_order_depends_target_palace: phony || CMakeFiles/palace.dir
+
+build CMakeFiles/palace.dir/week3/palace.cpp.o: CXX_COMPILER__palace_Debug /Users/tianjiaye/CLionProjects/mtj/week3/palace.cpp || cmake_object_order_depends_target_palace
+  DEP_FILE = CMakeFiles/palace.dir/week3/palace.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/palace.dir
+  OBJECT_FILE_DIR = CMakeFiles/palace.dir/week3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target palace
+
+
+#############################################
+# Link the executable palace
+
+build palace: CXX_EXECUTABLE_LINKER__palace_Debug CMakeFiles/palace.dir/week3/palace.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/palace.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = palace
+  TARGET_PDB = palace.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target chafen
+
+
+#############################################
+# Order-only phony target for chafen
+
+build cmake_object_order_depends_target_chafen: phony || CMakeFiles/chafen.dir
+
+build CMakeFiles/chafen.dir/week3/chafen.cpp.o: CXX_COMPILER__chafen_Debug /Users/tianjiaye/CLionProjects/mtj/week3/chafen.cpp || cmake_object_order_depends_target_chafen
+  DEP_FILE = CMakeFiles/chafen.dir/week3/chafen.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/chafen.dir
+  OBJECT_FILE_DIR = CMakeFiles/chafen.dir/week3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chafen
+
+
+#############################################
+# Link the executable chafen
+
+build chafen: CXX_EXECUTABLE_LINKER__chafen_Debug CMakeFiles/chafen.dir/week3/chafen.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/chafen.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chafen
+  TARGET_PDB = chafen.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target online_pre_sum
+
+
+#############################################
+# Order-only phony target for online_pre_sum
+
+build cmake_object_order_depends_target_online_pre_sum: phony || CMakeFiles/online_pre_sum.dir
+
+build CMakeFiles/online_pre_sum.dir/week3/online_pre_sum.cpp.o: CXX_COMPILER__online_pre_sum_Debug /Users/tianjiaye/CLionProjects/mtj/week3/online_pre_sum.cpp || cmake_object_order_depends_target_online_pre_sum
+  DEP_FILE = CMakeFiles/online_pre_sum.dir/week3/online_pre_sum.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/online_pre_sum.dir
+  OBJECT_FILE_DIR = CMakeFiles/online_pre_sum.dir/week3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target online_pre_sum
+
+
+#############################################
+# Link the executable online_pre_sum
+
+build online_pre_sum: CXX_EXECUTABLE_LINKER__online_pre_sum_Debug CMakeFiles/online_pre_sum.dir/week3/online_pre_sum.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/online_pre_sum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = online_pre_sum
+  TARGET_PDB = online_pre_sum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ticket
+
+
+#############################################
+# Order-only phony target for ticket
+
+build cmake_object_order_depends_target_ticket: phony || CMakeFiles/ticket.dir
+
+build CMakeFiles/ticket.dir/week3/ticket.cpp.o: CXX_COMPILER__ticket_Debug /Users/tianjiaye/CLionProjects/mtj/week3/ticket.cpp || cmake_object_order_depends_target_ticket
+  DEP_FILE = CMakeFiles/ticket.dir/week3/ticket.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/ticket.dir
+  OBJECT_FILE_DIR = CMakeFiles/ticket.dir/week3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ticket
+
+
+#############################################
+# Link the executable ticket
+
+build ticket: CXX_EXECUTABLE_LINKER__ticket_Debug CMakeFiles/ticket.dir/week3/ticket.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/ticket.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ticket
+  TARGET_PDB = ticket.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/tianjiaye/CLionProjects/mtj -B/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug
+
+build all: phony 2016 max_avg cointower triangle palace chafen online_pre_sum ticket
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/tianjiaye/CLionProjects/mtj/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/tianjiaye/CLionProjects/mtj/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

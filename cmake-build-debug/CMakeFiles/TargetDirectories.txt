@@ -1,0 +1,10 @@
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/2016.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/max_avg.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/cointower.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/triangle.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/palace.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/chafen.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/online_pre_sum.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/ticket.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
