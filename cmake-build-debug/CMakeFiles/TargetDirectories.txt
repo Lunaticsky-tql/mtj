@@ -6,5 +6,15 @@
 /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/chafen.dir
 /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/online_pre_sum.dir
 /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/ticket.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/temperature.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/food_distribution.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/food_distribution2.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/logging.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/room.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/fib_string.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/email.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/swap_cup.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/account.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/disorder.dir
 /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
