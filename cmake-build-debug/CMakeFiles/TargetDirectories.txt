@@ -42,5 +42,10 @@
 /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/decode_str.dir
 /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/word_category.dir
 /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/worm.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/chef.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/max_subarray.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/travel_fee.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/paper_belt.dir
+/Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/stair.dir
 /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug/CMakeFiles/rebuild_cache.dir

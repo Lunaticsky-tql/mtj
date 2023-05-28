@@ -1401,6 +1401,161 @@ build worm: CXX_EXECUTABLE_LINKER__worm_Debug CMakeFiles/worm.dir/week9/worm.cpp
   TARGET_FILE = worm
   TARGET_PDB = worm.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target chef
+
+
+#############################################
+# Order-only phony target for chef
+
+build cmake_object_order_depends_target_chef: phony || CMakeFiles/chef.dir
+
+build CMakeFiles/chef.dir/week13/chef.cpp.o: CXX_COMPILER__chef_Debug /Users/tianjiaye/CLionProjects/mtj/week13/chef.cpp || cmake_object_order_depends_target_chef
+  DEP_FILE = CMakeFiles/chef.dir/week13/chef.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/chef.dir
+  OBJECT_FILE_DIR = CMakeFiles/chef.dir/week13
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chef
+
+
+#############################################
+# Link the executable chef
+
+build chef: CXX_EXECUTABLE_LINKER__chef_Debug CMakeFiles/chef.dir/week13/chef.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/chef.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chef
+  TARGET_PDB = chef.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target max_subarray
+
+
+#############################################
+# Order-only phony target for max_subarray
+
+build cmake_object_order_depends_target_max_subarray: phony || CMakeFiles/max_subarray.dir
+
+build CMakeFiles/max_subarray.dir/week13/max_subarray.cpp.o: CXX_COMPILER__max_subarray_Debug /Users/tianjiaye/CLionProjects/mtj/week13/max_subarray.cpp || cmake_object_order_depends_target_max_subarray
+  DEP_FILE = CMakeFiles/max_subarray.dir/week13/max_subarray.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/max_subarray.dir
+  OBJECT_FILE_DIR = CMakeFiles/max_subarray.dir/week13
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target max_subarray
+
+
+#############################################
+# Link the executable max_subarray
+
+build max_subarray: CXX_EXECUTABLE_LINKER__max_subarray_Debug CMakeFiles/max_subarray.dir/week13/max_subarray.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/max_subarray.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = max_subarray
+  TARGET_PDB = max_subarray.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target travel_fee
+
+
+#############################################
+# Order-only phony target for travel_fee
+
+build cmake_object_order_depends_target_travel_fee: phony || CMakeFiles/travel_fee.dir
+
+build CMakeFiles/travel_fee.dir/week13/travel_fee.cpp.o: CXX_COMPILER__travel_fee_Debug /Users/tianjiaye/CLionProjects/mtj/week13/travel_fee.cpp || cmake_object_order_depends_target_travel_fee
+  DEP_FILE = CMakeFiles/travel_fee.dir/week13/travel_fee.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/travel_fee.dir
+  OBJECT_FILE_DIR = CMakeFiles/travel_fee.dir/week13
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target travel_fee
+
+
+#############################################
+# Link the executable travel_fee
+
+build travel_fee: CXX_EXECUTABLE_LINKER__travel_fee_Debug CMakeFiles/travel_fee.dir/week13/travel_fee.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/travel_fee.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = travel_fee
+  TARGET_PDB = travel_fee.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target paper_belt
+
+
+#############################################
+# Order-only phony target for paper_belt
+
+build cmake_object_order_depends_target_paper_belt: phony || CMakeFiles/paper_belt.dir
+
+build CMakeFiles/paper_belt.dir/week13/paper_belt.cpp.o: CXX_COMPILER__paper_belt_Debug /Users/tianjiaye/CLionProjects/mtj/week13/paper_belt.cpp || cmake_object_order_depends_target_paper_belt
+  DEP_FILE = CMakeFiles/paper_belt.dir/week13/paper_belt.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/paper_belt.dir
+  OBJECT_FILE_DIR = CMakeFiles/paper_belt.dir/week13
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target paper_belt
+
+
+#############################################
+# Link the executable paper_belt
+
+build paper_belt: CXX_EXECUTABLE_LINKER__paper_belt_Debug CMakeFiles/paper_belt.dir/week13/paper_belt.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/paper_belt.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = paper_belt
+  TARGET_PDB = paper_belt.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stair
+
+
+#############################################
+# Order-only phony target for stair
+
+build cmake_object_order_depends_target_stair: phony || CMakeFiles/stair.dir
+
+build CMakeFiles/stair.dir/week13/stair.cpp.o: CXX_COMPILER__stair_Debug /Users/tianjiaye/CLionProjects/mtj/week13/stair.cpp || cmake_object_order_depends_target_stair
+  DEP_FILE = CMakeFiles/stair.dir/week13/stair.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/stair.dir
+  OBJECT_FILE_DIR = CMakeFiles/stair.dir/week13
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stair
+
+
+#############################################
+# Link the executable stair
+
+build stair: CXX_EXECUTABLE_LINKER__stair_Debug CMakeFiles/stair.dir/week13/stair.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0
+  OBJECT_DIR = CMakeFiles/stair.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = stair
+  TARGET_PDB = stair.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1435,7 +1590,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/tianjiaye/CLionProjects/mtj/cmake-build-debug
 
-build all: phony 2016 max_avg cointower triangle palace chafen online_pre_sum ticket temperature food_distribution food_distribution2 logging room fib_string email swap_cup account disorder dis_segment oddevensort new_dict manuplate group_partner stack_min bracket_substr expression_recur top_k_select exoression_without_rec deque top_k_multi_vector test vector return_refer complex_new diamond heap_min_max task_priority stack_template function_topk ab_pair weight_map decode_str word_category worm
+build all: phony 2016 max_avg cointower triangle palace chafen online_pre_sum ticket temperature food_distribution food_distribution2 logging room fib_string email swap_cup account disorder dis_segment oddevensort new_dict manuplate group_partner stack_min bracket_substr expression_recur top_k_select exoression_without_rec deque top_k_multi_vector test vector return_refer complex_new diamond heap_min_max task_priority stack_template function_topk ab_pair weight_map decode_str word_category worm chef max_subarray travel_fee paper_belt stair
 
 # =============================================================================
 # Built-in targets
