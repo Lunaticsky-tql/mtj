@@ -3,8 +3,6 @@ project(mtj)
 
 set(CMAKE_CXX_STANDARD 17)
 
-
-
 add_executable(2016 week1/2016.cpp)
 add_executable(max_avg week3/max_avg.cpp)
 add_executable(cointower week1/cointower.cpp)
@@ -65,3 +63,9 @@ add_executable(deadline week15/deadline.cpp)
 add_executable(repeated_char week15/repeated_char.cpp)
 add_executable(bug_backpack week15/bug_backpack.cpp)
 add_executable(chain_reaction week15/chain_reaction.cpp)
+add_executable(mp_algorithm week19/mp_algorithm.cpp)
+add_executable(trie week19/trie.cpp)
+add_executable(string_construct week19/string_construct.cpp)
+add_executable(color_string week19/color_string.cpp)
+add_executable(pit_password week19/pit_password.cpp)
+add_executable(union_find_with_rank week11/union_find_with_rank.cpp)
