@@ -24,6 +24,25 @@ int myLowerBound(vector<int> &data, int k)
     return start;
 }
 
+int myLowerBound2(vector<int> &data, int k)
+{
+    int start = 0;
+    int last = data.size()-1;
+    while (start < last)
+    {
+        int mid = start + (last - start) / 2;
+        if (data[mid] >= k)
+        {
+            last = mid;
+        }
+        else
+        {
+            start = mid + 1;
+        }
+    }
+    return start;
+}
+
 int myUpperBound(vector<int> &data, int k)
 {
     int start = 0;
@@ -68,6 +87,7 @@ int binarySearch(vector<int> &nums, int target)
 int main(){
     vector<int> v={1,2,3,3,3,4,5,6,7,8,9};
     cout<<myLowerBound(v,3)<<endl;
+    cout<<myLowerBound2(v,3)<<endl;
     cout<<myUpperBound(v,3)<<endl;
     cout<<binarySearch(v,3)<<endl;
     vector<int> v2={1,2,3,4,5,6,7,8,9};
